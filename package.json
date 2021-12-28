@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-express-simple-starter",
+  "version": "1.0.0",
+  "description": "Simple NodeJS + Express starter with sensible defaults",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/danielsneijers/nodejs-express-simple-starter.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "express"
+  ],
+  "author": "Daniel Sneijers <daniel.sneijers@gmail.com> (https://danielsneijers.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielsneijers/nodejs-express-simple-starter/issues"
+  },
+  "homepage": "https://github.com/danielsneijers/nodejs-express-simple-starter#readme"
+}
