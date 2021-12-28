@@ -4,9 +4,9 @@
   "description": "Simple NodeJS + Express starter with sensible defaults",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node index.mjs",
     "test": "jest",
-    "lint": "eslint . --fix"
+    "lint": "eslint . --ext js,mjs --fix"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,11 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-prettier": "^4.0.0",
-    "prettier": "^2.5.1"
+    "jest": "^27.4.5",
+    "prettier": "^2.5.1",
+    "supertest": "^6.1.6"
+  },
+  "dependencies": {
+    "express": "^4.17.2"
   }
 }
