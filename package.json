@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "Simple NodeJS + Express starter with sensible defaults",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.mjs",
-    "test": "jest",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
     "lint": "eslint . --ext js,mjs --fix"
   },
   "repository": {
